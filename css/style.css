@@ -312,6 +312,7 @@ button {
   color: white;
   margin-bottom: 16px;
 }
+
 .footer-prg-form {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -319,6 +320,9 @@ button {
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 16px;
+}
+.footer-form {
+  margin-left: 80px;
 }
 .footer-form-email {
   gap: 24px;
@@ -383,6 +387,7 @@ button {
 .checkbox-svg {
 }
 .label-span {
+  margin-right: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -450,6 +455,7 @@ button {
   color: white;
   background-color: #404bbf;
 }
+
 p {
   font-size: 16px;
   font-weight: 400;
@@ -565,7 +571,13 @@ p {
 .our-team-section {
   background-color: #f4f4fd;
 }
+.is-open > .backdrop {
+  pointer-events: visible;
+  opacity: 1;
+}
 .backdrop {
+  pointer-events: none;
+  opacity: 0;
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   width: 200px;
@@ -592,6 +604,7 @@ p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-butt-sub {
+  margin: auto;
   display: block;
   min-width: 169px;
   height: 56px;
