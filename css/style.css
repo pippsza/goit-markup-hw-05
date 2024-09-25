@@ -312,6 +312,36 @@ button {
   color: white;
   margin-bottom: 16px;
 }
+.footer-prg-form {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-form-email {
+  gap: 24px;
+}
+.footer-input::placeholder {
+  color #ffffff
+}
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.footer-form-form {
+  display: flex;
+}
 .prg-footer {
   width: 264px;
   color: #f4f4fd;
@@ -364,6 +394,15 @@ p {
   gap: 24px;
   row-gap: 48px;
 }
+.footer-butt{
+   min-width: 165px;
+    height: 40px;
+    display: flex; 
+     justify-content: center;
+      align-items: center;
+font-family: "Roboto", sans-serif;
+}
+
 .logo-footer {
   display: inline-block;
 
