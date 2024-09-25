@@ -339,9 +339,42 @@ button {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+.modal-name-label {
+  position: relative;
+}
+.name-label-modal-svg {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.name-label-input:focus {
+  border-color: #4d5ae5;
+}
+.name-label-input {
+  width: 100%;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
+  padding-left: 38px;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+}
 .footer-form-form {
   gap: 24px;
   display: flex;
+}
+.modal-label {
+  color: #8e8f99;
+  letter-spacing: 0.04em;
+  line-height: 1.17;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 4px;
+}
+.modal-form {
+  margin-bottom: 8px;
 }
 .prg-footer {
   width: 264px;
