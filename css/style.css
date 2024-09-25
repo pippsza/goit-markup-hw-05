@@ -571,13 +571,13 @@ p {
 .our-team-section {
   background-color: #f4f4fd;
 }
-.is-open > .backdrop {
+/* .is-open > .backdrop {
   pointer-events: visible;
   opacity: 1;
-}
+} */
 .backdrop {
-  pointer-events: none;
-  opacity: 0;
+  /* pointer-events: none;
+  opacity: 0; */
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   width: 200px;
