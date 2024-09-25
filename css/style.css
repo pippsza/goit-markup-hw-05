@@ -324,7 +324,7 @@ button {
   gap: 24px;
 }
 .footer-input::placeholder {
-  color #ffffff
+  color: #ffffff;
 }
 .footer-input {
   width: 264px;
@@ -394,15 +394,26 @@ p {
   gap: 24px;
   row-gap: 48px;
 }
-.footer-butt{
-   min-width: 165px;
-    height: 40px;
-    display: flex; 
-     justify-content: center;
-      align-items: center;
-font-family: "Roboto", sans-serif;
+.footer-butt {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
 }
-
+.footer-butt-svg {
+  margin-left: 16px;
+}
 .logo-footer {
   display: inline-block;
 
